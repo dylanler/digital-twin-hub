@@ -218,8 +218,8 @@ If enabled, the application:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/elevenlabs-hackathon.git
-cd elevenlabs-hackathon
+git clone https://github.com/dylanler/digital-twin-hub
+cd digital-twin-hub
 ```
 
 2. Install dependencies:
@@ -295,7 +295,7 @@ See [requirements.txt](requirements.txt) for a complete list of dependencies.
 ## Directory Structure
 
 ```
-elevenlabs-hackathon/
+digital-twin-hub/
 ├── video_app_multi_lora.py    # Main application file
 ├── video_generation_reference_multi_lora.py  # Video generation logic
 ├── multi_lora_inference.py    # Multi-LoRA stacking implementation
