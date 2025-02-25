@@ -38,11 +38,11 @@ The application supports multiple video generation engines, each with different 
 - **Strengths**: Excellent motion quality and scene transitions
 - **Required API Key**: `LUMAAI_API_KEY`
 
-### 2. LTX (Leonardo Diffusion)
+### 2. LTX
 - **Features**: Stylistic consistency and artistic quality
 - **Duration Options**: 5s or 10s per scene
 - **Strengths**: Artistic style and visual coherence
-- **Required API Key**: `REPLICATE_API_KEY`
+- **Required API Key**: `FAL_API_KEY`
 
 ### 3. FAL
 - **Features**: Fast generation and good prompt adherence
@@ -231,7 +231,7 @@ pip install -r requirements.txt
 ```env
 # Required for core functionality
 ELEVEN_LABS_API_KEY=your_key  # For sound effects generation
-FAL_API_KEY=your_key          # For LoRA training and FAL video generation
+FAL_API_KEY=your_key          # For LoRA training and LTX/FAL video generation
 
 # Required for different LLM options
 GEMINI_API_KEY=your_key       # For Gemini LLM
@@ -239,7 +239,6 @@ ANTHROPIC_API_KEY=your_key    # For Claude LLM
 
 # Required for different video engines
 LUMAAI_API_KEY=your_key       # For Luma AI video generation
-REPLICATE_API_KEY=your_key    # For LTX video generation
 ```
 
 4. Run the application:
