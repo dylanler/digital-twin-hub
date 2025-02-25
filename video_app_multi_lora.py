@@ -4,7 +4,7 @@ import json
 import time
 from datetime import datetime
 from fal_train_lora import LoraTrainer
-from video_generation_reference_future import generate_video
+from video_generation_reference_multi_lora import generate_video
 from dotenv import load_dotenv
 
 # Load environment variables
